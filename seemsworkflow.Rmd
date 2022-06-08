@@ -1,5 +1,5 @@
 ---
-title: "seemsworkflow"
+title: "seemasworkflow"
 output: html_notebook
 ---
 
@@ -20,7 +20,6 @@ View(adae)
 
 Plotly
 ```{r}
-#seemas plotly
 p <-ggplot(adae) +
   aes(x = AESEV, fill = SEX) +
   geom_bar() +
